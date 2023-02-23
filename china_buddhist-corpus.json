@@ -1,0 +1,35 @@
+{
+	"name": "china_buddhist",
+	"title": "中國佛教＆法苑談叢",
+	"bits":[ 7, 12, 5, 8 ],
+	"rendClass": [
+		"kai",
+		"b",
+		"tag",
+		"l",
+		"je",
+		"le",
+		"xa",
+		"wi",
+		"pe",
+		"zi",
+		"by",
+		"bf",
+		"bz",
+		"ask",
+		"rep",
+		"si",
+		"sr",
+		"year",
+		"h0",
+		"book",
+		"sarticle",
+		"va",
+		"eng",
+		"talk"
+	],
+	"files": [
+		"okfytc.xml",
+		"okchina.xml"
+	]
+}
