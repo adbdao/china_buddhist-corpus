@@ -4,3 +4,4 @@
   
 > 最新Accelon下載資訊 http://adbdao.blogspot.com/2018/07/blog-post.html  
 ---  
+### 所有的圖片都沒有加入COR，因為太多的圖片，會使得轉換出錯。只好放棄圖片

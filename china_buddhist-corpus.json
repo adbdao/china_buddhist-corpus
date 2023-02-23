@@ -1,8 +1,9 @@
 {
 	"name": "china_buddhist",
 	"title": "中國佛教＆法苑談叢",
-	"bits":[ 7, 12, 5, 8 ],
+	"bits":[ 6, 10, 5, 8 ],
 	"rendClass": [
+		"hr",
 		"kai",
 		"b",
 		"tag",
@@ -29,7 +30,7 @@
 		"talk"
 	],
 	"files": [
-		"okfytc.xml",
-		"okchina.xml"
+		"okchina.xml",
+		"okfytc.xml"
 	]
 }

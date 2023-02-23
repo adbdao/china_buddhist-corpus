@@ -175,7 +175,7 @@ for (var k of lst) {
 // ===============================================
 // 因為整合寫入一個檔內，所以等全部寫入後再上頁碼
 // 刪除空行
-var z = okfile.replace(/[\n\r]+/g, '\n').split('\n')
+var z = okfile.replace(/[\n\r]+/g, '\n').replace(/(<article>)([^<]+)(<\/article>)/g, '$1$2$3\n<h1>$2</h1>').split('\n')
 // 加上批次冊碼頁碼
 // 預設變量，才能累加冊碼頁碼
 var s0 = 0
@@ -190,7 +190,7 @@ for (var i = 1; i < z.length; i++) {
     // z[i] = z[i].replace(/^ +/g, '')
     // 加上冊碼頁碼
     // 多個檔案的時候，不好算出冊碼，就省去冊碼
-    if (/<article/.test(z[i]) || i == 1 || s2 > 1023) {
+    if (/<group/.test(z[i]) || i == 1 || s2 > 1023) {
         s2 = 1
         // s1++
         // z[i] = '<pb n="' + s1 + '.' + s2 + '"/>\n' + z[i]
